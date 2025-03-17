@@ -38,20 +38,35 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Key Insights
 st.header("🔍 Key Insights")
+
 st.markdown(
     """
-    **Djamal is an talented central defender with a good potential. He has the huge advantage to have left & right foot. His main position is left defender.**
+    ## **Djamal Moussadek | Modern Central Defender with Tactical Intelligence**
     
-    **Personality & mentality** 🏃‍♂️💨
-    - A team player
-    - 
+    **🌟 Overview**
+    - A promising and versatile center-back capable of playing on both left and right sides.
+    - Natural left-footed player with good adaptability, making him valuable in different tactical setups.
+    - Combines defensive solidity with ball-playing ability, ideal for possession-based or transitional systems.
 
+    ### **🧠 Personality & Mentality**
+    - **Resilient & Hardworking:** Maintains high intensity throughout the game, showing great endurance.
+    - **Team-Oriented:** Works well within the defensive unit, prioritizing collective success.
+
+    ### **🎯 Football Profile**
+    - **Defensive Strengths:**
+      - **Excellent in duels** 🤺 (both aerial and ground battles).
+      - **Strong shot-blocking ability** 🛑, especially in dangerous areas.
+      - **Good anticipation & positioning** 📍 to intercept and cover spaces.
     
-    **Football Profile**  🎯
-    - Strong in duals
-    - Block shot in the golden zone
-    - Passing quality to initiate the possession
+    - **Ball-Playing Ability:**
+      - **Comfortable under pressure** 💡, key in possession-based football.
 
+    ### **🚀 Future Potential**
+    - Ready for a step up to a **higher level (Ligue 2 or equivalent)**.
+    - Ideal for a **progressive team needing a mobile, ball-playing defender**.
+    - With the right development, could become a key defensive asset at a **higher professional level**.
+
+    **🎯 Conclusion: Djamal is a modern, intelligent central defender with strong physical attributes and quality passing. A high-potential player who could thrive in a competitive environment.**
     """
 )
 
@@ -124,17 +139,51 @@ with st.expander("⏳ Minutes Played | A Key Player"):
     """)
 
 with st.expander("🛡 Player Profile | Complete Central Defender"):
-    image = load_image_from_github("leaugue_Comparison.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Djamal is a complete central defender without a strong skills. For this reason he is not in the top regarding the data. But Djamal is quite strong in duals, his a good lecture of the game, he showed some skills in the golden area like clearance and block/shot. He has also a good passing skills, able to play forward, breaking lines & long balls. 🚀")
 
+    # Player profile analysis
+    st.write("""
+    ### Profile Overview:
+    - **Versatile Defender:** Djamal is an all-around center-back, without an elite standout skill but a balanced profile.
+    - **Key Strengths:**
+      - Strong in defensive duels, showing good anticipation.
+      - Solid in clearances and blocking shots, essential in defensive transitions.
+      - Capable of playing forward, breaking lines with passes, and delivering accurate long balls.
+    - **Areas for Improvement:**
+      - Can work on increasing his defensive actions to match the league's top performers.
+    
+    ### Tactical Fit:
+    - Ideal for a **possession-based team** needing a ball-playing defender.
+    - Can thrive in a **low-block defensive system**, where his clearance and blocking ability shine.
+    - With improved physical dominance, could transition into a higher level of competition.
 
-# with st.expander("📈 Performance Progression | Individual Development"):
-#     image = load_image_from_github("progression.png")
-#     if image:
-#         st.image(image, use_container_width=True)
-#     st.write("Freddy Mbemba has transitioned into a more effective goal-scorer and playmaker (xG assisted), as seen by his higher xG assisted and goal contribution stats. However, there is a slight trade-off in his dribbling and ball progression, suggesting either a tactical shift (e.g., playing higher up the pitch) or defensive adaptation from opponents.")
+    🚀 **Djamal is a reliable central defender with strong defensive fundamentals and good passing range. With targeted improvements, he could become a top-tier defender.**
+    """)
+
+with st.expander("📈 Performance Progression | Individual Development"):
+    if image:
+        st.image(image, use_container_width=True)
+
+    # Performance Improvements Analysis
+    st.write("""
+    ### Key Improvements in 24/25 (Blue):
+    - **Defensive Stability:** 
+      - Dribbled past less often, showing better positioning and 1v1 defending.
+      - Improved in blocks and clearances, making him more reliable defensively.
+    - **Aerial Dominance:**
+      - Increased aerial win percentage, becoming a stronger presence in duels.
+    - **Passing & Progression:** 
+      - Improved in passing metrics (OBV & carries), showing confidence in build-up play.
+      - More effective under pressure, leading to better ball retention.
+    
+    ### Areas to Keep Developing:
+    - Further reduce turnovers and improve passing security.
+    - Continue refining long-ball accuracy for better distribution.
+    - Maintain defensive consistency over the season.
+
+    🚀 **Djamal has shown strong progression, becoming a more complete and resilient defender. His growth in defensive duels and aerial ability makes him a key asset for his team!**
+    """)
 
 # with st.expander("👥 Player Comparison | Ernest Nuamah (Ligue 1)"):
 #     image = load_image_from_github("radar.png")
@@ -144,21 +193,41 @@ with st.expander("🛡 Player Profile | Complete Central Defender"):
 
 
 with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
-    image = load_image_from_github("physique.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("For a central defender Djamal a really good vmax (around 30Km/h. He can also repeat effort & have a good ability to sprint")
+
+    # Physical Profile Analysis
+    st.write("""
+    ### 🚀 **Djamal Moussadek's Physical Profile**
+    
+    #### **Top Physical Attributes:**
+    - **Max Speed:** Around 30-32 km/h, which is exceptional for a central defender.
+    - **Acceleration & Deceleration:** Consistently above 20+ high-intensity accelerations (>4m/s²) per game, showing strong explosiveness.
+    - **High-Speed Running (16-24 km/h):** Covers a notable distance at high intensity, proving endurance and mobility.
+    - **Sprinting Capacity:** While not a primary sprinter, he maintains good short-burst sprint ability.
+
+    #### **Strengths in His Role:**
+    - **Explosive Acceleration:** Quick bursts allow him to react swiftly to defensive transitions.
+    - **Endurance for Defensive Work:** Can maintain high activity levels over 90 minutes.
+    - **Speed Recovery:** Above-average top speed helps cover defensive spaces.
+
+    #### **Areas for Development:**
+    - **Increase Sprint Frequency:** While he reaches high speed, increasing short bursts could improve his pressing and recovery runs.
+    - **Maintain High-Speed Consistency:** Keeping high-intensity running over multiple games will be key for long-term performance.
+
+    ✅ **Overall, Djamal is a physically dominant center-back with a rare combination of speed, endurance, and explosiveness.** His ability to cover ground and handle high-intensity actions makes him a modern, dynamic defender.
+    """)
 with st.expander("🤕 Injury History | Robust Player"):
     image = load_image_from_github("injuries.png")
     if image:
         st.image(image, use_container_width=True)
     st.write("He had no injuries this year. Djamal is very robust and take care of his body")
 
-# with st.expander("⚖️ Weight Evolution"):
-#     image = load_image_from_github("poids.png")
-#     if image:
-#         st.image(image, use_container_width=True)
-#     st.write("Monitoring body composition is key to performance optimization.")
+with st.expander("⚖️ Weight Evolution"):
+    image = load_image_from_github("poids.png")
+    if image:
+        st.image(image, use_container_width=True)
+    st.write("Monitoring body composition is key to performance optimization.Djamal show a good body composition")
 
 # with st.expander("🔥 Personnality & Motivation | high self determination"):
 #     image = load_image_from_github("Happiness.png")

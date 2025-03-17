@@ -75,23 +75,53 @@ if st.button("📲 Contact Sport Director"):
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Vertical Display with Expanders
-with st.expander("👤 Player Career | Young player ready for a new step"):
-    image = load_image_from_github("fiche.png")
+with st.expander("👤 Player Career | Special profil of central defender"):
     if image:
         st.image(image, use_container_width=True)
-    st.write("xxx")
 
-with st.expander("📍 Position Played | Left central defender "):
-    image = load_image_from_github("position.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Djamal is able to play right & left central defender, his main position is left central defender. He has both foot that give him a good advantage.")
+    # Career analysis
+    st.write("""
+    ### Career Path Analysis:
+    - **Early Career:** Developed at Le Mans FC, progressing through youth and B team.
+    - **Professional Debut:** Joined Le Havre AC but had limited opportunities.
+    - **Loan Moves:** Loaned to Villefranche to gain experience.
+    - **Recent Move:** Signed with FC Versailles in July 2024 to gain more playing time.
 
-with st.expander("⏳ Minutes played | A key player"):
-    image = load_image_from_github("minutes_played.png")
+    ### Next Step:
+    - **Key Strengths:** Experience in multiple clubs.
+    - **Potential Progression:** If he performs well at Versailles, he could attract interest from higher level.
+    """)
+
+with st.expander("📍 Position Played | Left Central Defender"):
     if image:
         st.image(image, use_container_width=True)
-    st.write("This season Djamal is a key player for the team. Djama took 18/23 lineups.")
+
+    # Positional analysis
+    st.write("""
+    ### Positional Profile:
+    - **Main Position:** Left Center-Back (LCB) – Played 12.8 matches in this role.
+    - **Other Positions:** Right Center-Back (6.0), occasional roles as Right-Back (0.4) and Right Wing-Back (0.2).
+    - **Strengths:** Versatility in the backline, ability to play on both sides, making him a valuable defensive asset.
+    - **Key Advantage:** Comfortable with both feet, allowing flexibility in build-up play and defensive adaptability.
+
+    ### Tactical Insights:
+    - **Best Fit:** A left-footed or two-footed center-back role in a three or four-man defensive setup.
+    - **Next Step:** Strengthening leadership at the back and refining tactical positioning for a potential move to Ligue 2.
+    """)
+    
+    
+with st.expander("⏳ Minutes Played | A Key Player"):
+    if image:
+        st.image(image, use_container_width=True)
+
+    # Performance Analysis
+    st.write("""
+    ### Match Involvement:
+    - **Appearances:** 18 out of 23 matches, demonstrating high reliability.
+    - **Playing Time:** Regular starter, playing full 90 minutes in most matches.
+    - **Substitutions:** Only a few instances of being benched or subbed off.
+
+    """)
 
 with st.expander("🛡 Player Profile | Complete Central Defender"):
     image = load_image_from_github("leaugue_Comparison.png")

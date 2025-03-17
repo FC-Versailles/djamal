@@ -40,19 +40,18 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 st.header("🔍 Key Insights")
 st.markdown(
     """
-    **xxx is an talented forward player with lot of potential. His football profile and personality are two strong indicators that suggest Freddy will reach the highest level.**
+    **Djamal is an talented central defender with a good potential. He has the huge advantage to have left & right foot. His main position is left defender.**
     
     **Personality & mentality** 🏃‍♂️💨
-    - xx
-    - xx
+    - A team player
+    - 
 
     
     **Football Profile**  🎯
-    - xx
-    - xx
-    - xx
+    - Strong in duals
+    - Block shot in the golden zone
+    - Passing quality to initiate the possession
 
-    **Best suited for:** xx 🏹⚡
     """
 )
 
@@ -60,7 +59,7 @@ st.markdown(
 whatsapp_number = "33771730001"  # Example: +33 for France
 
 # Message to send
-message = "Hello, I am interested in FDjamal. Can we discuss further?"
+message = "Hello, I am interested in Djamal Moussadek. Can we discuss further?"
 
 # Encode message for URL
 encoded_message = urllib.parse.quote(message)
@@ -80,74 +79,68 @@ with st.expander("👤 Player Career | Young player ready for a new step"):
     image = load_image_from_github("fiche.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy has progressed rapidly through divisions, demonstrating strong development potential.Freddy is a young talented forward player, right footed. His career path illustrate the potential and the development of Freddy. In 21/22 he played in 6th division, 22/23 he was transfered in USL Dunkerque in the 3rd Division. 23/24 USL Dunkerque jump in 2nd division and Freddy was in loan to Nimes in 3rd division. Freddy is ready to take a new step in his career")
+    st.write("xxx")
 
-with st.expander("📍 Position Played | Left Winger & Versatile Forward"):
+with st.expander("📍 Position Played | Left central defender "):
     image = load_image_from_github("position.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy primarily plays as a left winger but is also comfortable as a second striker or right winger. Freddy is a complete forward player.")
+    st.write("Djamal is able to play right & left central defender, his main position is left central defender. He has both foot that give him a good advantage.")
 
-with st.expander("⏳ Minutes played | A key player - 23/24 starting lineups"):
+with st.expander("⏳ Minutes played | A key player"):
     image = load_image_from_github("minutes_played.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("This season Freddy is a key player for the team. Freddy took 22/23 lineups and more than 90% of the available minutes. For the first time of his career he took 2 yellows cards that bring to a missing match.")
+    st.write("This season Djamal is a key player for the team. Djama took 18/23 lineups.")
 
-with st.expander("🛡 Player Profile | Wide Threat - Explosive & Dribbler"):
+with st.expander("🛡 Player Profile | Complete Central Defender"):
     image = load_image_from_github("leaugue_Comparison.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy excels in high-intensity attacking scenarios, with great dribbling skills and goal instincts. Freddy Mbemba is a high-intensity, direct winger with strong dribbling and goal-scoring instincts. His ability to take on defenders and progress the ball makes him an exciting attacking asset, but improving his crossing precision and playmaking could make him a more complete forward. 🚀")
+    st.write("Djamal is a complete central defender without a strong skills. For this reason he is not in the top regarding the data. But Djamal is quite strong in duals, his a good lecture of the game, he showed some skills in the golden area like clearance and block/shot. He has also a good passing skills, able to play forward, breaking lines & long balls. 🚀")
 
-with st.expander("⚽ Shot Map | Efficiency"):
-    image = load_image_from_github("Shot_map.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Freddy is an efficient goal scorer with a strong xG conversion rate.")
 
-with st.expander("📈 Performance Progression | Individual Development"):
-    image = load_image_from_github("progression.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Freddy Mbemba has transitioned into a more effective goal-scorer and playmaker (xG assisted), as seen by his higher xG assisted and goal contribution stats. However, there is a slight trade-off in his dribbling and ball progression, suggesting either a tactical shift (e.g., playing higher up the pitch) or defensive adaptation from opponents.")
+# with st.expander("📈 Performance Progression | Individual Development"):
+#     image = load_image_from_github("progression.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Freddy Mbemba has transitioned into a more effective goal-scorer and playmaker (xG assisted), as seen by his higher xG assisted and goal contribution stats. However, there is a slight trade-off in his dribbling and ball progression, suggesting either a tactical shift (e.g., playing higher up the pitch) or defensive adaptation from opponents.")
 
-with st.expander("👥 Player Comparison | Ernest Nuamah (Ligue 1)"):
-    image = load_image_from_github("radar.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
+# with st.expander("👥 Player Comparison | Ernest Nuamah (Ligue 1)"):
+#     image = load_image_from_github("radar.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
 
 
 with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
     image = load_image_from_github("physique.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Endurance: Covers significant distance per game (10,845m), showcasing strong stamina. Speed: Reaches a top speed of 32.5 km/h, indicating strong sprint capabilities. In term of intensity: High acceleration/deceleration numbers (35 accelerations, 38 decelerations per game), proving his ability to make explosive movements and quick changes of direction. Sprint Efforts: 27 sprints per game, maintaining a good balance between high-intensity bursts and recovery.")
-
+    st.write("For a central defender Djamal a really good vmax (around 30Km/h. He can also repeat effort & have a good ability to sprint")
 with st.expander("🤕 Injury History | Robust Player"):
     image = load_image_from_github("injuries.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy has maintained excellent availability with no major injuries this season. Freddy is a robust player. He did not get any injury this year that bring 100% of availabity for training and match. He takes care about his body with some session with physio (massage & cares).")
+    st.write("He had no injuries this year. Djamal is very robust and take care of his body")
 
-with st.expander("⚖️ Weight Evolution"):
-    image = load_image_from_github("poids.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Monitoring body composition is key to performance optimization. He is currently working with a nutritionist")
+# with st.expander("⚖️ Weight Evolution"):
+#     image = load_image_from_github("poids.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Monitoring body composition is key to performance optimization.")
 
-with st.expander("🔥 Personnality & Motivation | high self determination"):
-    image = load_image_from_github("Happiness.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Freddy is highly motivated and dedicated to his football journey. His motivation runs deep, rooted in his childhood passion, with a constant desire to progress and reach the highest levels of football.")
+# with st.expander("🔥 Personnality & Motivation | high self determination"):
+#     image = load_image_from_github("Happiness.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Freddy is highly motivated and dedicated to his football journey. His motivation runs deep, rooted in his childhood passion, with a constant desire to progress and reach the highest levels of football.")
 
-with st.expander("📊 Game Report"):
-    image = load_image_from_github("game_report.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Example of Game report, please contact Mathieu Feigean for more explanation or request.")
+# with st.expander("📊 Game Report"):
+#     image = load_image_from_github("game_report.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Example of Game report, please contact Mathieu Feigean for more explanation or request.")
 
 
 

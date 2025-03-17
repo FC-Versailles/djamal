@@ -91,10 +91,9 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Vertical Display with Expanders
 with st.expander("👤 Player Career | Special profil of central defender"):
+    image = load_image_from_github("fiche.png")
     if image:
         st.image(image, use_container_width=True)
-
-    # Career analysis
     st.write("""
     ### Career Path Analysis:
     - **Early Career:** Developed at Le Mans FC, progressing through youth and B team.
@@ -108,6 +107,7 @@ with st.expander("👤 Player Career | Special profil of central defender"):
     """)
 
 with st.expander("📍 Position Played | Left Central Defender"):
+    image = load_image_from_github("position.png")
     if image:
         st.image(image, use_container_width=True)
 
@@ -126,6 +126,7 @@ with st.expander("📍 Position Played | Left Central Defender"):
     
     
 with st.expander("⏳ Minutes Played | A Key Player"):
+    image = load_image_from_github("minutes_played.png")
     if image:
         st.image(image, use_container_width=True)
 
@@ -139,6 +140,7 @@ with st.expander("⏳ Minutes Played | A Key Player"):
     """)
 
 with st.expander("🛡 Player Profile | Complete Central Defender"):
+    image = load_image_from_github("leaugue_Comparison.png")
     if image:
         st.image(image, use_container_width=True)
 
@@ -162,6 +164,7 @@ with st.expander("🛡 Player Profile | Complete Central Defender"):
     """)
 
 with st.expander("📈 Performance Progression | Individual Development"):
+    image = load_image_from_github("progression.png")
     if image:
         st.image(image, use_container_width=True)
 
@@ -192,7 +195,8 @@ with st.expander("📈 Performance Progression | Individual Development"):
 #     st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
 
 
-with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
+with st.expander("🏋️ Physical Performance | Fast Central Defender"):
+    image = load_image_from_github("physique.png")
     if image:
         st.image(image, use_container_width=True)
 

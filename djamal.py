@@ -41,18 +41,18 @@ st.header("🔍 Key Insights")
 
 st.markdown(
     """
-    ## **Djamal Moussadek | Modern Central Defender with Tactical Intelligence**
+    #### **Modern Central Defender**
     
     **🌟 Overview**
     - A promising and versatile center-back capable of playing on both left and right sides.
     - Natural left-footed player with good adaptability, making him valuable in different tactical setups.
     - Combines defensive solidity with ball-playing ability, ideal for possession-based or transitional systems.
 
-    ### **🧠 Personality & Mentality**
+    ##### **🧠 Personality & Mentality**
     - **Resilient & Hardworking:** Maintains high intensity throughout the game, showing great endurance.
     - **Team-Oriented:** Works well within the defensive unit, prioritizing collective success.
 
-    ### **🎯 Football Profile**
+    ##### **🎯 Football Profile**
     - **Defensive Strengths:**
       - **Excellent in duels** 🤺 (both aerial and ground battles).
       - **Strong shot-blocking ability** 🛑, especially in dangerous areas.
@@ -61,7 +61,7 @@ st.markdown(
     - **Ball-Playing Ability:**
       - **Comfortable under pressure** 💡, key in possession-based football.
 
-    ### **🚀 Future Potential**
+    ##### **🚀 Future Potential**
     - Ready for a step up to a **higher level (Ligue 2 or equivalent)**.
     - Ideal for a **progressive team needing a mobile, ball-playing defender**.
     - With the right development, could become a key defensive asset at a **higher professional level**.
